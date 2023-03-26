@@ -1,0 +1,37 @@
+#footer1{
+    background-color: #2C3E50;
+    font-family: 'Lato', sans-serif;
+
+}
+.lead{
+    font-size: 1.5rem !important;
+    font-weight: 300 !important;
+}
+
+.socialMedia-icon{
+    width: 50px;
+    height:50px;
+   
+    font-size: 1.5rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px;
+    margin-inline: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.5s;
+
+}
+
+.socialMedia-icon:hover{
+    background-color: white;
+    color: #2C3E50;
+}
+
+#footer2{
+    font-family: 'Lato', sans-serif;
+
+    background-color: #1A252F;
+}
