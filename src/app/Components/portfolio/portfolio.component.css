@@ -1,0 +1,97 @@
+#portfolio{
+    color: #2c3e50 !important;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    margin-bottom:50px ;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.title-underline{
+    display: flex;
+}
+.star-icon{
+    font-size: 2rem;
+}
+
+.line1,.line2{
+    background-color: #2c3e50;
+    border-radius: 5px;
+    width: 150px;
+    height: 5px;
+    margin-top: 50px;
+    margin-top: 23px;
+    margin-inline: 20px;
+}
+
+.inputContainer{
+    padding: 15px 8px;
+    box-shadow: 0 3px 3px -2px gray;
+}
+
+input,textarea{
+    outline: none !important;
+    border: 0px !important;
+}
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: white !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(255,255,255,1);
+}
+
+.send-btn{
+    background-color:#1ABC9C ;
+    color: white;
+    padding: 5px 7px;
+    font-size: 1.5rem;
+    width: 100px;
+}
+
+.img-holder{
+    border-radius: 12px;
+   
+}
+.portfolio-item{
+    position: relative;
+    width: 70%;
+}
+.portfolio-item-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(26, 188, 156, 0.9);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.7s;
+
+}
+
+.portfolio-item-overlay i{
+    font-size: 5rem !important;
+    font-weight: 900 !important;
+    color: white;
+}
+
+.portfolio-item-overlay:hover{
+opacity: 1;
+}

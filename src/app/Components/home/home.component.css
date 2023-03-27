@@ -1,0 +1,43 @@
+#home{
+    background-color: #1ABC9C;
+    height: 64vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionTitle{
+    font-size: 4rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.title-underline{
+    display: flex;
+}
+.star-icon{
+    font-size: 2rem;
+}
+
+.line1,.line2{
+    background-color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 5px;
+    margin-top: 50px;
+    margin-top: 23px;
+    margin-inline: 20px;
+}
+
+.home-subtitle{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
