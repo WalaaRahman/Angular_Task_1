@@ -12,6 +12,7 @@ export class PortfolioComponent {
   openImg(event:Event){
     console.log(event);
     
+    
   }
 
 }
